@@ -16,7 +16,7 @@ load_dotenv()
 # All the models are type safe from OpenAI in case you need a list of supported models
 llm = ChatOpenAI(
 	# model='x-ai/grok-4',
-	model='deepcogito/cogito-v2.1-671b',
+	model='google/gemini-2.5-flash',
 	base_url='https://openrouter.ai/api/v1',
 	api_key=os.getenv('OPENROUTER_API_KEY'),
 )
